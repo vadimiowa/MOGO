@@ -1,0 +1,495 @@
+/* /////  MEDIA PRO  ///// */
+@media (max-width: 1200px) {
+    /*   reviews   */
+    .reviews__btn--prev {
+    top: 140px;
+    left: 50px;
+    }
+
+    .reviews__btn--next {
+    top: 140px;
+    right: 50px;
+    }
+
+    /* about */
+    .about_suptitle {
+        font-size: 40px;
+    }
+    .about_title {
+        font-size: 120px;
+    }
+
+     /* MAC - - - IOS */
+    .mac_ios {
+        justify-content: center;
+    }
+
+      /* FINISH ABOUT */
+    .finish_about {
+        flex-wrap: nowrap;
+    }
+
+
+    /* PADDING*/
+    .header_inner {
+        padding: 0 15px;
+    }
+
+    .slider {
+        padding: 0 15px;
+    }
+
+    .clients {
+        padding: 0 15px;
+    }
+
+    .finish_1 {
+        padding: 0 15px;
+    }
+
+    /* HAPPY CLIENTS */
+    .happy_clients_1 {
+        margin-bottom: 0;
+    }
+
+    .clients {
+        flex: 100%;
+        margin-bottom: 40px;
+    }
+
+    .one_block_client {
+        max-width: 100%;
+    }
+
+    .clients--none {
+        margin-bottom: 0;
+    }
+
+
+}
+
+/* /////  MEDIA MAC  ///// */
+@media (max-width: 990px) {
+    .accordion {
+        width: 100%;
+    }
+
+     /* about */
+    .about_suptitle {
+        font-size: 32px;
+    }
+    .about_title {
+        font-size: 80px;
+    }
+
+    .static {
+        flex: none;
+        width: 33.33333%;
+        border: none;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+     .block_static {
+        justify-content: center;
+    }
+
+    .static:last-child {
+        border: none;
+    }
+
+    .scroll {
+        flex: none;
+        margin-bottom: 50px;
+    }
+
+    .after {
+        display: none;
+    }
+
+    .scroll_block img {
+        display: none;
+    }
+
+    .scroll_block2 {
+        width: 100%;
+    }
+
+    .photo_our_team {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 30px;
+
+        padding: 0 20px;
+    }
+
+    .background_team {
+        margin-bottom: 100px;
+    }
+
+     .background_ocean {
+        flex-wrap: wrap;
+    }
+
+    .ocean_text {
+        font-size: 8px;
+    }
+
+    .ocean_text_bottom {
+        font-size: 13px;
+    }
+
+    .slider_block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .title_slider_text {
+        position: static;
+        margin-top: -22px;
+    }
+
+    /* HAPPY CLIENTS */
+    .happy_clients_1 {
+        margin-bottom: 0;
+    }
+
+    .clients {
+        flex: 100%;
+        margin-bottom: 40px;
+    }
+
+    .one_block_client {
+        max-width: 100%;
+    }
+
+    .clients--none {
+        margin-bottom: 0;
+    }
+
+    /* MAC - - - IOS */
+    .mac_ios {
+        justify-content: center;
+    }
+
+    /* FINISH ABOUT */
+    .finish_about {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .finish_1 {
+        max-width: 100%;
+    }
+
+    .finish_instagram {
+        margin-top: 50px;
+        margin-left: 32px;
+        margin-bottom: 9px;
+    }
+
+    .finish_blogs {
+        margin-bottom: 0;
+    }
+
+    .have {
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .inst_finish_text {
+        margin-left: 0;
+    }
+
+    .align {
+        text-align: center;
+    }
+
+}
+
+/* /////  MEDIA IPAD  ///// */
+@media (max-width: 770px) {
+       /* nav */
+    .nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+
+        background-color: #fd6f56f0;
+
+    }
+
+    .nav.active {
+        display: block;
+    }
+
+    .nav_link {
+        display: block;
+        margin: 0;
+        padding: 8px 20px;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    /*  HEADER  */
+
+
+
+    /***** title *****/
+    .back_text1 {
+        font-size: 20px;
+    }
+
+    .back_text2 {
+        font-size: 24px;
+    }
+
+    .scroll_text1 {
+        font-size: 20px;
+    }
+
+    .scroll_text2 {
+        font-size: 24px;
+    }
+
+    .team_title1 {
+        font-size: 20px;
+    }
+
+    .team_title2 {
+        font-size: 24px;
+    }
+
+    .ocean_h_1 {
+        font-size: 20px;
+    }
+
+    .ocean_h_2 {
+        font-size: 24px;
+    }
+
+    .client_tit_1 {
+        font-size: 20px;
+    }
+
+    .client_tit_2 {
+        font-size: 24px;
+    }
+
+    .blog_tit_1 {
+        font-size: 20px;
+    }
+
+    .blog_tit_2 {
+        font-size: 24px;
+    }
+
+    /***** title *****/
+
+
+    /* SLIDER */
+    .slider_text {
+        display: none;
+    }
+
+    .button {
+        margin-bottom: 100px;
+    }
+
+    /* w_about */
+    .about_item {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    .slider_item.active:before {
+        width: 50%;
+    }
+
+    /* block_2 */
+    .text_block1 {
+        padding-top: 50px;
+    }
+
+    /* services */
+    .services {
+        flex-wrap: wrap;
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+
+    .services_2 {
+        flex-wrap: wrap;
+        padding-left: 30px;
+    }
+
+    .servi_p {
+        line-height: 1.9;
+    }
+
+    .b_text1 {
+        font-size: 20px;
+    }
+
+    .b_text2 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+    .b_text2:after {
+        margin: 20px auto;
+    }
+
+    .bbb {
+        padding-bottom: 10px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    /* photo_our_team */
+    .background_team {
+        margin-bottom: 30px;
+    }
+
+
+    .bottom_text {
+        display: none;
+    }
+
+    .photo_our_team {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .little {
+       justify-content: center;
+       padding-bottom: 0;
+    }
+
+    .little_photo {
+        flex: none;
+        margin: 0 auto;
+    }
+
+    .text_lit {
+        margin: 0 auto;
+        position: static;
+        margin-top: 150px
+    }
+
+    .lit_text {
+        font-size: 20px;
+    }
+
+    .lit_tetle {
+        position: static;
+        margin-top: -23px;
+    }
+
+    .hipster_logo {
+        flex: none;
+        width: 48%;;
+    }
+
+    /* MAC - - - IOS */
+    .ios {
+        margin-bottom: 30px;
+    }
+
+    .ios--none {
+        margin-bottom: 0;
+    }
+
+    /**/
+    .text_lit {
+        padding-left: 15px;
+    }
+
+    .finish_img_one {
+        margin-left: 0;
+        padding-left: 15px;
+    }
+
+}
+
+/* /////  MEDIA IPHONE  ///// */
+@media (max-width: 575px) {
+
+     /* about */
+    .about_suptitle {
+        font-size: 38px;
+    }
+    .about_title {
+        font-size: 60px;
+    }
+
+    .about_title:after {
+        margin: 80px auto;
+    }
+
+    .about_inner {
+        padding-top: 170px;
+    }
+
+    .w_about {
+        padding: 0px 20px;
+    }
+
+    /* block_2 */
+    .text1 {
+        font-size: 20px;
+    }
+
+    .text2 {
+        font-size: 24px;
+    }
+
+     .text2:after {
+        margin: 23px auto;
+    }
+
+    .text_p {
+        padding-bottom: 30px;
+    }
+    .static {
+        width: 100%;
+        border-bottom: 1px solid #fff;
+    }
+
+      .hipster_logo {
+        flex: none;
+        width: 25%;
+    }
+
+    .hip_png {
+        margin: 0 auto;
+        padding: 35px 0px;
+    }
+
+    .hip_png_run1 {
+        width: 300px;
+    }
+
+    .hip_png_run {
+        width: 300px;
+    }
+
+    .hip_png img {
+        width: 300px;
+    }
+
+    .finish_img_one {
+        margin-left: 0;
+        padding-left: 15px;
+    }
+
+    .devices {
+        margin-top: 60px;
+    }
+}
