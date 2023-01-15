@@ -469,6 +469,7 @@ body {
     color: #fff;
 }
 
+
 .static:last-child {
     border-right: 1px solid #fff;
 }
@@ -632,24 +633,6 @@ body {
     height: auto;
     margin: auto;
 }
-
-.iphone.show {
-    animation-name: iphone;
-    animation-duration: 2s;
-}
-
-@keyframes iphone {
-    0% {
-        transform: translateY(-400px);
-    }
-    80% {
-        transform: rotate(-180deg);
-    }
-    100% {
-        transform: translateY(0px);
-    }
-}
-
 
 /* ////  ACCORDION  //// */
 .title_scroll {

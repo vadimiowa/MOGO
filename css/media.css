@@ -132,11 +132,11 @@
     }
 
     .ocean_text {
-        font-size: 8px;
+        font-size: 7px;
     }
 
     .ocean_text_bottom {
-        font-size: 13px;
+        font-size: 7px;
     }
 
     .slider_block {
@@ -420,6 +420,250 @@
 
 /* /////  MEDIA IPHONE  ///// */
 @media (max-width: 575px) {
+
+
+/* ///  ANIMATION  /// */
+.namber.active {
+    animation-name: staticAnimation1;
+    animation-duration: 2s;
+}
+
+@keyframes staticAnimation1 {
+    0% {
+    transform: translateY(-150px);
+    opacity: 0;
+    }
+    80% {
+    transform: translateX(0px);
+    color: red;
+    }
+    100% {
+    transform: translateX(0px);
+    opacity: 1;
+    }
+}
+
+.namber.active2 {
+    animation-name: staticAnimation2;
+    animation-duration: 2s;
+}
+
+@keyframes staticAnimation2 {
+    0% {
+    transform: translateX(-150px);
+    opacity: 0;
+    }
+    80% {
+    transform: translateX(0px);
+    color: red;
+    }
+    100% {
+    transform: translateX(0px);
+    opacity: 1;
+    }
+}
+
+.namber.active3 {
+    animation-name: staticAnimation3;
+    animation-duration: 2s;
+}
+
+@keyframes staticAnimation3 {
+    0% {
+    transform: translateX(150px);
+    opacity: 0;
+    }
+    80% {
+    transform: translateX(0px);
+    color: red;
+    }
+    100% {
+    transform: translateX(0px);
+    opacity: 1;
+    }
+}
+
+.namber.active4 {
+    animation-name: staticAnimation4;
+    animation-duration: 2s;
+}
+
+@keyframes staticAnimation4 {
+    0% {
+    transform: translateX(-150px);
+    opacity: 0;
+    }
+    80% {
+    transform: translateX(0px);
+    color: red;
+    }
+    100% {
+    transform: translateX(0px);
+    opacity: 1;
+    }
+}
+
+.namber.active5 {
+    animation-name: staticAnimation5;
+    animation-duration: 2s;
+}
+
+@keyframes staticAnimation5 {
+    0% {
+    transform: translateY(150px);
+    opacity: 0;
+    }
+    80% {
+    transform: translateX(0px);
+    color: red;
+    }
+    100% {
+    transform: translateX(0px);
+    opacity: 1;
+    }
+}
+
+/* ///  HIPSTER  /// */
+.hip_png.active1 {
+    animation-name: img1;
+    animation-duration: 2s;
+}
+
+@keyframes img1 {
+    0% {
+    transform: translateX(-150px);
+    opacity: 0;
+    }
+    80% {
+    transform: translateX(0px);
+    color: red;
+    }
+    100% {
+    transform: translateX(0px);
+    opacity: 1;
+    }
+}
+
+.hip_png.active2 {
+    animation-name: img2;
+    animation-duration: 2s;
+}
+
+@keyframes img2 {
+    0% {
+    transform: translateX(150px);
+    opacity: 0;
+    }
+    80% {
+    transform: translateX(0px);
+    color: red;
+    }
+    100% {
+    transform: translateX(0px);
+    opacity: 1;
+    }
+}
+
+.hip_png.active3 {
+    animation-name: img3;
+    animation-duration: 2s;
+}
+
+@keyframes img3 {
+    0% {
+    transform: translateX(-150px);
+    opacity: 0;
+    }
+    80% {
+    transform: translateX(0px);
+    color: red;
+    }
+    100% {
+    transform: translateX(0px);
+    opacity: 1;
+    }
+}
+
+.hip_png.active4 {
+    animation-name: img4;
+    animation-duration: 2s;
+}
+
+@keyframes img4 {
+    0% {
+    transform: translateX(150px);
+    opacity: 0;
+    }
+    80% {
+    transform: translateX(0px);
+    color: red;
+    }
+    100% {
+    transform: translateX(0px);
+    opacity: 1;
+    }
+}
+
+.hip_png.active5 {
+    animation-name: img5;
+    animation-duration: 2s;
+}
+
+@keyframes img5 {
+    0% {
+    transform: translateX(-150px);
+    opacity: 0;
+    }
+    80% {
+    transform: translateX(0px);
+    color: red;
+    }
+    100% {
+    transform: translateX(0px);
+    opacity: 1;
+    }
+}
+
+.hip_png.active6 {
+    animation-name: img6;
+    animation-duration: 2s;
+}
+
+@keyframes img6 {
+    0% {
+    transform: translateX(150px);
+    opacity: 0;
+    }
+    80% {
+    transform: translateX(0px);
+    color: red;
+    }
+    100% {
+    transform: translateX(0px);
+    opacity: 1;
+    }
+}
+
+/* ///  IPHONE  /// */
+.iphone.show {
+    animation-name: iphone;
+    animation-duration: 2s;
+}
+
+@keyframes iphone {
+    0% {
+        transform: translateY(-400px);
+    }
+    80% {
+        transform: rotate(-180deg);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+/* ///  ANIMATION  /// */
 
      /* about */
     .about_suptitle {
