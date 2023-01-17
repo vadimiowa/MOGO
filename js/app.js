@@ -105,7 +105,7 @@ let iphone = document.querySelector('.iphone');
 window.addEventListener('scroll', function () {
     let scrollIphone = window.scrollY;
 
-    if(scrollIphone > 3300) {
+    if(scrollIphone > 3200) {
         iphone.classList.add("show");
     } else {
         iphone.classList.remove("show");
@@ -123,31 +123,31 @@ let static5 = document.querySelector('#static5');
 window.addEventListener('scroll', function () {
     let staticFunction = window.scrollY;
 
-    if(staticFunction > 1190) {
+    if(staticFunction > 1140) {
         static1.classList.add("active");
     } else {
         static1.classList.remove("active");
     }
 
-    if(staticFunction > 1450) {
+    if(staticFunction > 1400) {
         static2.classList.add("active2");
     } else {
         static2.classList.remove("active2");
     }
 
-    if(staticFunction > 1690) {
+    if(staticFunction > 1640) {
         static3.classList.add("active3");
     } else {
         static3.classList.remove("active3");
     }
 
-    if(staticFunction > 1880) {
+    if(staticFunction > 1830) {
         static4.classList.add("active4");
     } else {
         static4.classList.remove("active4");
     }
 
-    if(staticFunction > 2080) {
+    if(staticFunction > 2030) {
         static5.classList.add("active5");
     } else {
         static5.classList.remove("active5");
@@ -169,37 +169,37 @@ let hip6 = document.querySelector('#hip6');
 window.addEventListener('scroll', function () {
     let hipFunction = window.scrollY;
 
-    if(hipFunction > 7200) {
+    if(hipFunction > 7150) {
         hip1.classList.add("active1");
     } else {
         hip1.classList.remove("active1");
     }
 
-    if(hipFunction > 7360) {
+    if(hipFunction > 7310) {
         hip2.classList.add("active2");
     } else {
         hip2.classList.remove("active2");
     }
 
-    if(hipFunction > 7540) {
+    if(hipFunction > 7490) {
         hip3.classList.add("active3");
     } else {
         hip3.classList.remove("active3");
     }
 
-    if(hipFunction > 7730) {
+    if(hipFunction > 7680) {
         hip4.classList.add("active4");
     } else {
         hip4.classList.remove("active4");
     }
 
-    if(hipFunction > 7860) {
+    if(hipFunction > 7810) {
         hip5.classList.add("active5");
     } else {
         hip5.classList.remove("active5");
     }
 
-    if(hipFunction > 8030) {
+    if(hipFunction > 7980) {
         hip6.classList.add("active6");
     } else {
         hip6.classList.remove("active6");
@@ -208,7 +208,69 @@ window.addEventListener('scroll', function () {
 })
 
 
+/* ////////   TITLE ANIMATION   //////// */
+let title1 = document.querySelector('#title1');
+let title2 = document.querySelector('#title2');
+let title3 = document.querySelector('#title3');
+let title4 = document.querySelector('#title4');
+let title5 = document.querySelector('#title5');
+let title6 = document.querySelector('#title6');
+let title7 = document.querySelector('#title7');
+let title8 = document.querySelector('#title8');
 
+window.addEventListener('scroll', function () {
+    let titleAnimation = window.scrollY;
+
+    if(titleAnimation > 0) {
+        title1.classList.add("active");
+    } else {
+        title1.classList.remove("active");
+    }
+
+    if(titleAnimation > 2300) {
+        title2.classList.add("active");
+    } else {
+        title2.classList.remove("active");
+    }
+
+    if(titleAnimation > 3100) {
+        title3.classList.add("active");
+    } else {
+        title3.classList.remove("active");
+    }
+
+    if(titleAnimation > 4000) {
+        title4.classList.add("active");
+    } else {
+        title4.classList.remove("active");
+    }
+
+    if(titleAnimation > 5300) {
+        title5.classList.add("active");
+    } else {
+        title5.classList.remove("active");
+    }
+
+    if(titleAnimation > 8100) {
+        title6.classList.add("active");
+    } else {
+        title6.classList.remove("active");
+    }
+
+    if(titleAnimation > 9800) {
+        title7.classList.add("active");
+    } else {
+        title7.classList.remove("active");
+    }
+
+    if(titleAnimation > 11390) {
+        title8.classList.add("active");
+    } else {
+        title8.classList.remove("active");
+    }
+
+
+})
 
 
 

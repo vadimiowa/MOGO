@@ -718,6 +718,7 @@ body {
     padding: 15px 15px;
     margin-bottom: 10px;
     position: relative;
+    margin: 10px;
 
     background: linear-gradient(-90deg, #ff5118, #af00ff);
     animation: gradient 5s ease infinite;
@@ -1295,7 +1296,7 @@ body {
     url("../img/client/background_cli.jpg") center no-repeat;
     background-size: cover;
 
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 
 .client_title {
